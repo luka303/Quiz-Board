@@ -34,5 +34,14 @@ if (quizFour === "correct") {
 	score = score + 10;
 }
 if (quizFive === "correct") {
-	score = score +10;
+	score = score + 10;
+}
+if (quizFive === "correct") {
+	score = score + 10;
+};
+if (quizSix === "correct") {
+	score = score + 10;
+}
+if (quizSeven === "correct") {
+	score = score + 10;
 }
