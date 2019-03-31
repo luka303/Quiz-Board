@@ -19,3 +19,20 @@ $(function() {
  var quizFive=document.Quiz.quizFive.value;
  var quizSix=document.Quiz.quizSix.value;
  var quizSeven=document.Quiz.quizSeven.value;
+ var score=0;
+
+ if (quizOne === "correct") {
+	 score = score + 10;
+ };
+if (quizTwo === "correct") {
+	score = score + 10;
+};
+if (quizThree ==== "correct") {
+	score = score = 10;
+}
+if (quizFour === "correct") {
+	score = score + 10;
+}
+if (quizFive === "correct") {
+	score = score +10;
+}
