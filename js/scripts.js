@@ -1,3 +1,4 @@
+//user interface logic
 $(function() {
   $("#start-btn").click(function(event) {
     event.preventDefault();
@@ -9,4 +10,8 @@ $(function() {
       $("#secondName").addClass("enter-name");
 			$("#arrow-right").click(function() {
 		     $("#intro").hide();
-		     $("#quizpage").show();
+		     $("#quizpage").show()
+
+ var quizOne=document.Quiz.quizOne.value;
+ var quizTwo=document.Quiz.quizTwo.value;
+ var quizThree=document.Quiz.quizThree.value;
