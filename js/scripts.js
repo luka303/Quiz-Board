@@ -15,3 +15,7 @@ $(function() {
  var quizOne=document.Quiz.quizOne.value;
  var quizTwo=document.Quiz.quizTwo.value;
  var quizThree=document.Quiz.quizThree.value;
+ var quizFour=document.Quiz.quizFour.value;
+ var quizFive=document.Quiz.quizFive.value;
+ var quizSix=document.Quiz.quizSix.value;
+ var quizSeven=document.Quiz.quizSeven.value;
