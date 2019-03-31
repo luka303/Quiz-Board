@@ -21,31 +21,30 @@ $(function() {
  var quizSeven=document.Quiz.quizSeven.value;
  var score=0;
 
- if (quizOne === "correct") {
+ if (quizOne == "correct") {
 	 score = score + 10;
  };
-if (quizTwo === "correct") {
+if (quizTwo == "correct") {
 	score = score + 10;
 };
-if (quizThree ==== "correct") {
+if (quizThree == "correct") {
 	score = score = 10;
 }
-if (quizFour === "correct") {
+if (quizFour == "correct") {
 	score = score + 10;
 }
-if (quizFive === "correct") {
+if (quizFive == "correct") {
 	score = score + 10;
 }
-if (quizFive === "correct") {
+if (quizFive == "correct") {
 	score = score + 10;
 };
-if (quizSix === "correct") {
+if (quizSix == "correct") {
 	score = score + 10;
 }
-if (quizSeven === "correct") {
+if (quizSeven == "correct") {
 	score = score + 10;
 }
 
-document.getElementById("score").style.visibility = "visible";
-	document.getElementById("correctNumber").innerHTML = "HERE IS YOUR SCORE: " + score + "/70";
-	$(".container").fadeOut();
+document.getElementById("score").style.visibility = visible";
+	document.getElementById("correctNumber") = "HERE IS YOUR SCORE: " + score + "/70";
