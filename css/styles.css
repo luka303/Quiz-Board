@@ -1,3 +1,6 @@
-.quizpage{
+#quizpage{
 	display: none;
+}
+.arrow{
+	align: center;
 }

@@ -7,12 +7,6 @@ $(function() {
       $("#no-name").show();
       $("#firstName").addClass("enter-name");
       $("#secondName").addClass("enter-name");
-    } else {
-      $("#intro").hide();
-      $("#quizpage").show();
-    }
-		$(document).ready(function() {
-  $("p").click(function() {
-    $(".quizpage").show();
-  });
-});
+			$("#arrow-right").click(function() {
+		     $("#intro").hide();
+		     $("#quizpage").show();
