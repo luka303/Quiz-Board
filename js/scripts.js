@@ -12,7 +12,7 @@ $(function() {
       $("#quizpage").show();
     }
 		$(document).ready(function() {
-		  $("p").click(function() {
-		    $("#quizpage").show();
-		  });
-		});
+  $("p").click(function() {
+    $(".quizpage").show();
+  });
+});
