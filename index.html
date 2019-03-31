@@ -28,12 +28,11 @@
 			 </div>
 			 <button id="start-btn" class="btn">START</button>
 			 <p id="no-name" class="text-center mt-4">Please <span>ENTER</span> your name</p>
-		 </div>
+
   </div>
-	<div class="arrow" id="arrow-right">
-				<span style='font-size:100px;'>&#8658;</span>
-	</div>
+
 	<div id="quizpage">
+		 <form id="Quiz" action="index.html" method="POST" name="Quiz">
 		      <div class="well">
 				 			<p><strong> 1. Which built-in method returns the calling string value converted to lower case?</strong></p>
 							<br>
@@ -87,7 +86,12 @@
 							 <input type="radio" name="questionFour" id="mc" value="correct">jQuery<br>
 							 <input type="radio" name="questionFour" id="mc" value="wrong">Bootsrap<br>
 					 </div>
+					 <input type="button" name="results" value="SUBMIT" id="button" class="btn btn-success" onClick="check();">
+			 </form>
 	</div>
+	</div>
+	<div id="score">
+		<p id="correctNumber">HERE IS YOUR SCORE:</p>
 
 
 

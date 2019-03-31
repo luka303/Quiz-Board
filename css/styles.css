@@ -7,3 +7,8 @@
 .well{
 	color: blue;
 }
+#score{
+	visibility: hidden;
+	background-color: skyblue;
+	height:350px;	
+}

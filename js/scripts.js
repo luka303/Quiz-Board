@@ -45,3 +45,7 @@ if (quizSix === "correct") {
 if (quizSeven === "correct") {
 	score = score + 10;
 }
+
+document.getElementById("score").style.visibility = "visible";
+	document.getElementById("correctNumber").innerHTML = "HERE IS YOUR SCORE: " + score + "/70";
+	$(".container").fadeOut();
