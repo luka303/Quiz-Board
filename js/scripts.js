@@ -45,4 +45,4 @@ if (quizSix == "correct") {
 if (quizSeven == "correct") {
 	score = score += 10;
 }
-alert("your score is" + "score" + /70.)
+alert("your score is" + score +"/70.");
