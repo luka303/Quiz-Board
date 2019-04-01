@@ -22,30 +22,27 @@ function check() {
 
 
  if (quizOne == "correct") {
-	 score = score + 10;
+	 score = score += 10;
  };
 if (quizTwo == "correct") {
-	score = score + 10;
+	score = score += 10;
 };
 if (quizThree == "correct") {
-	score = score = 10;
+	score = score += 10;
 }
 if (quizFour == "correct") {
-	score = score + 10;
+	score = score += 10;
 }
 if (quizFive == "correct") {
-	score = score + 10;
+	score = score += 10;
 }
 if (quizFive == "correct") {
-	score = score + 10;
+	score = score += 10;
 };
 if (quizSix == "correct") {
-	score = score + 10;
+	score = score += 10;
 }
 if (quizSeven == "correct") {
-	score = score + 10;
+	score = score += 10;
 }
-
-document.getElementById("score").style.visibility = visible";
-	document.getElementById("correctNumber") = "HERE IS YOUR SCORE: " + score + "/70";
-};
+alert("your score is" + "score" + /70.)
