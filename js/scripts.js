@@ -8,10 +8,9 @@ $(function() {
       $("#no-name").show();
       $("#firstName").addClass("enter-name");
       $("#secondName").addClass("enter-name");
-			$("#arrow-right").click(function() {
-		     $("#intro").hide();
-		     $("#quizpage").show()
 
+//bussiness logic
+function check() {
  var quizOne=document.Quiz.quizOne.value;
  var quizTwo=document.Quiz.quizTwo.value;
  var quizThree=document.Quiz.quizThree.value;
@@ -20,6 +19,7 @@ $(function() {
  var quizSix=document.Quiz.quizSix.value;
  var quizSeven=document.Quiz.quizSeven.value;
  var score=0;
+
 
  if (quizOne == "correct") {
 	 score = score + 10;
@@ -48,3 +48,4 @@ if (quizSeven == "correct") {
 
 document.getElementById("score").style.visibility = visible";
 	document.getElementById("correctNumber") = "HERE IS YOUR SCORE: " + score + "/70";
+};

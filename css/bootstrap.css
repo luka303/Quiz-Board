@@ -4964,7 +4964,9 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #48D1CC;
+  color: #994c80;
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 76px;
 }
 .jumbotron p {
   margin-bottom: 15px;
